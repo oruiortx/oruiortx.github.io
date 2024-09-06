@@ -1,0 +1,39 @@
+
+/* 搜索框样式 */
+.search input {
+    width: 250px; /* 根据你的需要调整宽度 */
+    padding: 5px;
+    border-radius: 4px; /* 如果你不需要圆角，可以将其设置为0 */
+    border: none; /* 这将移除搜索框的灰色边框 */
+    background-color: #f0f0f000; /* 可选：根据需要设置背景颜色 */
+    outline: none; /* 这将移除点击搜索框时的高亮边框 */
+}
+
+
+.search input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.search {
+    margin-top: 20px; /* 给搜索框一些顶部空间 */
+    padding: 10px; /* 确保搜索框看起来更美观 */
+    width: 90%; /* 设置合适的宽度 */
+    top: 0; /* 调整搜索结果出现的初始位置 */
+    bottom: auto; /* 禁止从底部显示 */
+}
+
+.cover-main {
+    background-color: rgba(0, 0, 0, 0.7); /* Adding transparency */
+    color: #ffffff; /* White text */
+
+    background-size: cover;
+}
+
+
+.github-corner > svg {
+    fill: skyblue;
+}
+
+
+

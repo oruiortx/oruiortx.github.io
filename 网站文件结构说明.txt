@@ -1,0 +1,15 @@
+my-website/
+├── .github/
+├── css/            # 样式文件
+│   └── styles.css   # 你的主样式表
+├── scripts/        # JavaScript 文件
+│   └── scripts.js   # 你的网站脚本
+├── docs/           # 所有内容存放在此
+│   ├── README.md    # 首页内容
+│   ├── navbar.md    # 导航栏内容
+│   ├── coverpage.md # 封面内容
+│   ├── 文章1.md     # 你的第一篇文章
+│   ├── 文章2.md     # 你的第二篇文章
+│   └── ...          # 更多文章
+├── index.html       # 网站入口文件
+└── favicon.ico      # 网站图标
