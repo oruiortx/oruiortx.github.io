@@ -23,24 +23,50 @@
       font-size: 3rem;
       text-align: center;
     }
+
+    /* 定位 Home 链接和 GitHub 角标 */
+    .header {
+      position: relative;
+    }
+
+    .home-link {
+      position: absolute;
+      top: 10px;  /* 距离顶部 */
+      right: 70px; /* 控制 Home 链接与 GitHub 角标的距离 */
+      font-size: 16px;
+      text-decoration: none;
+      color: #4CAF50; /* Home 链接的颜色 */
+    }
+
+    .github-corner {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .github-corner > svg {
+      fill: #4CAF50;
+    }
   </style>
- 
+
 </head>
 
 <body>
   <div id="background-image"></div>
   <div id="app"></div>
 
-  <script src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
-  <!-- 添加 GitHub Corners -->
-  <script data-href="https://github.com/oruiortx/oruiortx.github.io" 
-  src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
-<style>
-    .github-corner > svg {
-    fill: #4CAF50;
+  <!-- 添加一个容器来包含 Home 链接和 GitHub 角标 -->
+  <div class="header">
+    <a href="./docs/README.md" class="home-link">Home</a> <!-- 添加 Home 链接 -->
+    <a href="https://github.com/oruiortx/oruiortx.github.io" class="github-corner">
+      <!-- GitHub 角标的 SVG 图标 -->
+      <svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="..."></path> <!-- 这里是 GitHub 角标的 SVG 路径代码 -->
+      </svg>
+    </a>
+  </div>
 
-}
-</style>
+  <script src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
 
   <script>
     window.$docsify = {
@@ -48,31 +74,21 @@
       coverpage: 'docs/coverpage.md',
       onlyCover: false,  // 设置为 false，以便在其他页面也显示封面
       repo: '',
-      // loadNavbar: true,   // 如果你使用 navbar.md
-      // subMaxLevel: 2,     // 控制子标题的显示层级
-      // auto2top: true,     // 点击导航后自动返回顶部
-
       search: {
-      placeholder: 'Search',
-      noData: '没有找到结果',
-      maxAge: 86400000,
-      paths: 'auto',
-      depth: 3
-    }
+        placeholder: 'Search',
+        noData: '没有找到结果',
+        maxAge: 86400000,
+        paths: 'auto',
+        depth: 3
+      }
     }
   </script>
   
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
-
-<!-- Docsify search plugin -->
-<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-
-<nav>
-  <a href="./README.md">Home</a>
-</nav>
-
+  <!-- Docsify search plugin -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 
 </body>
 </html>
