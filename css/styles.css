@@ -23,12 +23,7 @@
     bottom: auto; /* 禁止从底部显示 */
 }
 
-.cover-main {
-    background-color: rgba(0, 0, 0, 0.7); /* Adding transparency */
-    color: #ffffff; /* White text */
 
-    background-size: cover;
-}
 
 
 
