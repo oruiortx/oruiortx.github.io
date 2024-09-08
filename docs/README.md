@@ -7,6 +7,6 @@
 > - [论择偶观]
 > - […]
 ## 学习资料&其他
-> - 论文写作指南_乔丹-彼得森（[中文](docs/guide.md)·[English](docs/guide.md)）
+> - 论文写作指南_乔丹-彼得森（[中文](docs/peterson-jordan_essay_writing_guide-CN.md)·[English](docs/peterson-jordan_essay_writing_guide-EN.md)）
 > - [关于我们](docs/about.md)
 
