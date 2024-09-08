@@ -4,7 +4,4 @@
 
 [Click here to get](/#亦扬在分享)
 
-<!-- Background image -->
-<!-- ![cover](../wallhaven-5g9rl7_2560x1440.png)
-<!-- Background color -->
-<!-- #f0f0f0 -->
+<!--<img src="../images/wp9955720-jordan-peterson-quotes-wallpapers.jpg" style="width:100%; height:auto;" />-->
