@@ -1,0 +1,71 @@
+
+/* 搜索框样式 */
+.search input {
+    width: 250px; /* 根据你的需要调整宽度 */
+    padding: 5px;
+    border-radius: 4px; /* 如果你不需要圆角，可以将其设置为0 */
+    border: none; /* 这将移除搜索框的灰色边框 */
+    background-color: #f0f0f000; /* 可选：根据需要设置背景颜色 */
+    outline: none; /* 这将移除点击搜索框时的高亮边框 */
+}
+
+
+.search input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.search {
+    margin-top: 20px; /* 给搜索框一些顶部空间 */
+    padding: 10px; /* 确保搜索框看起来更美观 */
+    width: 90%; /* 设置合适的宽度 */
+    top: 0; /* 调整搜索结果出现的初始位置 */
+    bottom: auto; /* 禁止从底部显示 */
+}
+
+
+
+/* 添加全屏封面样式 */
+.cover {
+    height: 100vh; /* 设置封面高度为屏幕的100% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+  }
+  .cover-content {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  /* 定位 Home 链接和 GitHub 角标 */
+  .header {
+    position: fixed;
+  }
+  
+  .home-link {
+    position: fixed;
+    top: 10px;  /* 距离顶部 */
+    right: 70px; /* 控制 Home 链接与 GitHub 角标的距离 */
+    font-size: 16px;
+    text-decoration: none;
+    color: #4CAF50; /* Home 链接的颜色 */
+    text-decoration: underline;
+  
+  }
+  
+  .github-corner {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+
+
+
+
+
+
+
+
