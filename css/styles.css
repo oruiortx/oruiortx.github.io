@@ -25,6 +25,46 @@
 
 
 
+/* 添加全屏封面样式 */
+.cover {
+    height: 100vh; /* 设置封面高度为屏幕的100% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+  }
+  .cover-content {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  /* 定位 Home 链接和 GitHub 角标 */
+  .header {
+    position: fixed;
+  }
+  
+  .home-link {
+    position: fixed;
+    top: 10px;  /* 距离顶部 */
+    right: 70px; /* 控制 Home 链接与 GitHub 角标的距离 */
+    font-size: 16px;
+    text-decoration: none;
+    color: #4CAF50; /* Home 链接的颜色 */
+    text-decoration: underline;
+  
+  }
+  
+  .github-corner {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+
+
+
+
 
 
 

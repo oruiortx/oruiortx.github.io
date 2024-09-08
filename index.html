@@ -7,46 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="./scripts/scripts.js"></script>
-  <style>
-    /* 添加全屏封面样式 */
-    .cover {
-      height: 100vh; /* 设置封面高度为屏幕的100% */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: url('your-background-image.jpg') no-repeat center center/cover;
-    }
-    .cover-content {
-      color: white;
-      font-size: 3rem;
-      text-align: center;
-    }
-
-    /* 定位 Home 链接和 GitHub 角标 */
-    .header {
-      position: fixed;
-    }
-
-    .home-link {
-      position: fixed;
-      top: 10px;  /* 距离顶部 */
-      right: 70px; /* 控制 Home 链接与 GitHub 角标的距离 */
-      font-size: 16px;
-      text-decoration: none;
-      color: #4CAF50; /* Home 链接的颜色 */
-    }
-
-    .github-corner {
-      position: fixed;
-      top: 0;
-      right: 0;
-    }
-
-    
-  </style>
-
+  <link rel="stylesheet" href="css\styles.css">
 </head>
 
 <body>
@@ -66,9 +27,9 @@
     window.$docsify = {
       homepage: 'docs/README.md',
       coverpage: {
-      '/': 'layouts/coverpage.md',  // 首页封面
-      '/guide': 'layouts/guide-cover.md',  // 指南页面的封面
-      '/about': 'layouts/about-cover.md'   // 关于页面的封面
+      '/': '../layouts/coverpage.md',  // 首页封面
+      '/docs/guide': '../layouts/guide-cover.md',  // 指南页面的封面
+      '/docs/about': '../layouts/about-cover.md'   // 关于页面的封面
     },
       onlyCover: false,  // 设置为 false，以便在其他页面也显示封面
       repo: '',
@@ -87,6 +48,7 @@
 
   <!-- Docsify search plugin -->
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-
+  
+  <script src="./scripts/scripts.js"></script>
 </body>
 </html>

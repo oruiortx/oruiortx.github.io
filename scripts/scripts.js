@@ -1,1 +1,1 @@
-//什么也没有
+// Future JavaScript code will go here
